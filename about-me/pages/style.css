@@ -1,0 +1,128 @@
+body{
+  background-color: #FFDBE9;
+}
+
+      h1{
+      font-family: 'Yellowtail', cursive;
+            font-size:72px;
+
+      }
+      h2{
+      font-family: 'Yellowtail', cursive;
+        font-size:52px;
+      }
+      h3{
+          font-family:'Share Tech Mono', monospace;
+            font-size:42px;
+      }
+      h4{
+        font-family:'Share Tech Mono', monospace;
+        font-size:18.72px;
+      }
+      h5{
+        font-family:'Share Tech Mono', monospace;
+        font-size:18.72px;
+      }
+
+      h2.title{
+        text-align: center;
+        color: rgb(214, 100, 157);
+      }
+      h1.aka{
+        text-align: center;
+        color: rgb(214, 100, 157);
+      }
+  /* Style the element with the id "navigation" */
+.space{
+  height:50px;
+}
+  ul.navbar{
+    font-family:'Share Tech Mono', monospace;
+    list-style-type: none;
+    margin: -10px;
+    padding: 85px;
+    overflow: hidden;
+    font-size:24px;
+    text-align: center;
+}
+li.l1{
+    float:left;
+    padding-left: 125px;
+
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /* text-decoration: none; */
+    margin-left: 20px;
+}
+a:hover {
+    background-color: pink;
+}
+
+div.navbarContainer{
+  margin-left:3px;
+}
+.navbarContainer{
+  border-style: double;
+}
+
+/* Footer */
+.footer {
+  border-style: double;
+}
+
+
+/*  */
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
